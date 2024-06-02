@@ -1,0 +1,62 @@
+p {
+  margin-top: 0;
+}
+.app {
+  background: #d0cece;
+  margin-bottom: 30px;
+  padding: 25px 30px;
+}
+.card {
+  margin-bottom: 25px;
+}
+.imgSec {
+  display: flex;
+}
+.info h2 {
+  margin: 0 0 5px;
+  font-size: 22px;
+}
+.info h4 {
+  margin: 20px 0 5px;
+}
+.img{
+  width: 30%;
+  padding: 0 10px;
+}
+.info{
+  width: 55%;
+  padding: 0 10px;
+}
+.quantity, .subPrice{
+  width: 50%;
+  padding: 0 10px;
+}
+.subDes{
+  width: 50%;
+  padding: 0 10px;
+ }
+.quantityBox {
+  position: relative;
+}
+.quantityBox select {
+  position: absolute;
+    right: 70px;
+}
+.subtotal {
+  display: flex;
+  border-top: 1px solid #a09494;
+  padding-top: 15px;
+}
+.quantityBox span {
+  margin-left: 10px;
+  float: right;
+}
+.subPrice {
+  text-align: right;
+}
+.ctype {
+  color: #f44040;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
