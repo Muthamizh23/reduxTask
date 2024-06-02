@@ -1,6 +1,5 @@
 import { store } from "./store";
 import * as actionTypes from './actionType';
-import { type } from "@testing-library/user-event/dist/type";
 
 export const fetchProducts= getProductsRes => ({
     type : actionTypes.PRODUCTS,
