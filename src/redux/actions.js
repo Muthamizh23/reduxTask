@@ -30,7 +30,7 @@ export const fetchTotalRes = (data, id, quantity) => dispatch => {
             total += data.price
         }
         // total += data.id === id ? data.price * quantity : data.price ;
-        if(data.id === id){ index = i ; }
+        if(data.id === id){ index = i }
     });
     if(id){
         data[index].quantity =  quantity;

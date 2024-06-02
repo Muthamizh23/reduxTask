@@ -6,7 +6,7 @@ const initialState = {
 };
 
 const reducer = (state = initialState, action) => {
-  let newState = Object.assign({}, state);
+  // let newState = Object.assign({}, state);
 
   switch (action.type) {
     case actionTypes.PRODUCTS:
